@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica;
+    background-color: #00FFFF	;
+}
+
+.Container {
+    width: 900px;
+    margin: auto;
+    align-items: center;
+
+}
+
+.Conteúdo {
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    margin: 5px;
+    float: left;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.Preço {
+    width: 120px;
+    height: 120px;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+
+.Detalhes {
+    margin-top: -50px;
+}
+
+.Conteúdo h1 {
+     font-size: 20px; 
+     color:white;
+     line-height: 5;
+     text-transform: uppercase;
+}
+
+.Preço h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.Detalhes h4 {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    line-height: 1;
+}
+
+.Conteúdo a {
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    color:white;
+    padding: 10px 60px;
+    display:inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.Conteúdo a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
